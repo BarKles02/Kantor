@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <title>Kantor</title>
+</head>
+
+<body class="body">
+    <div class="container">
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Kalkulator walut</legend>
+                <p>
+                    <label class="form__label">
+                        <span class="form__labelText">Wybierz walutę: </span>
+                        <select class="form__field js-currency" name="currency" required>
+                            <option value="EUR">EUR</option>
+                            <option value="USD">USD</option>
+                            <option value="GBP">GBP</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label class="form__label">
+                        <span class="form__labelText"> Podaj Kwotę*:</span>
+                        <input class="form__field js-amount" type="number" name="amount" required autofocus
+                            placeholder="Wpisz kwotę w PLN" step="0.01" min="0.01">
+                    </label>
+                </p>
+                <p>
+                    Wartość: <span class="form__result js-result">N/A</span>
+                </p>
+            </fieldset>
+            <p class="form__paragraph">
+                <input type="submit" class="form__submit" value="Przelicz">
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>
