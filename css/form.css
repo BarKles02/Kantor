@@ -12,6 +12,9 @@
     max-width: 400px;
     width: 100%;
 }
+.form__field:hover{
+    background-color: #eee;
+}
 
 .form__submit {
     width: 100%;
