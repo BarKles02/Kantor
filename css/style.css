@@ -10,5 +10,14 @@ html {
 
 .body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #D9F3FF;
+    background-color: #D9F3FF
 }
+
+.body--backgroundImage {
+    background-image: url('/images/blueSpace.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+
