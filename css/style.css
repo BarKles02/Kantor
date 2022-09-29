@@ -15,6 +15,6 @@ html {
 
 .body--backgroundImage{
     background-image: url("../images/blueSpace.jpg");
-    background-repeat: no-repeat;
+    background-repeat: space-round;
     background-size: cover;
 }
