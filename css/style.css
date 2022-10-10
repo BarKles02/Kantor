@@ -17,4 +17,5 @@ html {
     background-image: url("../images/blueSpace.jpg");
     background-repeat: space-round;
     background-size: cover;
+    min-height: 100vh;
 }

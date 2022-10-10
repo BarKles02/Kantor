@@ -1,3 +1,10 @@
+.form {
+    flex-basis: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
 .form__labelText {
     max-width: 150px;
     width: 100%;
@@ -12,7 +19,8 @@
     max-width: 400px;
     width: 100%;
 }
-.form__field:hover{
+
+.form__field:hover {
     background-color: #eee;
 }
 
