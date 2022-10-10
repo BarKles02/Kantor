@@ -4,7 +4,7 @@
 
 https://barkles02.github.io/Kantor/
 
-![screen of the app] ()
+![screen of the app](https://raw.githubusercontent.com/BarKles02/Kantor/8de221c96ed444a6f92a974474ebb3cfa93b633e/images/scr.png)
 
 ## Description
 
